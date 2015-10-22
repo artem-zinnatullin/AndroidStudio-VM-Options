@@ -1,0 +1,26 @@
+#
+# JVM options for smooth Android Studio experience (works also for any IntelliJ IDEA based IDE) 
+#
+# Installation instructions
+#
+# Mac OS:
+#   Place this file to ~/Library/Preferences/FolderOfYourAndroidStudioVersion 
+#   (each AndroidStudio version has own folder, so add to required, then it will copy preferences on upgrades)
+#
+# TODO: add instruction for other OSses, feel free to send PRs!
+#
+# Links:
+#   https://intellij-support.jetbrains.com/hc/en-us/articles/206827537-Configuring-JVM-options-and-platform-properties
+#   http://tools.android.com/tech-docs/configuration
+#
+# Repository: https://github.com/artem-zinnatullin/AndroidStudio-VM-Options
+# Questions? Ask me in Twitter https://twitter.com/artem_zin
+#
+-server
+-Xms1G
+-Xmx2G
+-XX:MaxMetaspaceSize=350m
+-XX:ReservedCodeCacheSize=225m
+-XX:MetaspaceSize=512m
+-XX:+OptimizeStringConcat
+-XX:+UseCompressedOops
