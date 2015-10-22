@@ -1,5 +1,6 @@
 #
-# JVM options for smooth Android Studio experience (works also for any IntelliJ IDEA based IDE) 
+# JVM options for smooth Android Studio experience (works also for any IntelliJ IDEA based IDE).
+# Works on Mac OS, Linux, Windows. Targets JRE 8.
 #
 # Installation instructions
 #
