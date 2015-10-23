@@ -28,5 +28,4 @@
 -Xms1G
 -Xmx2G
 -XX:MetaspaceSize=512m
--XX:+OptimizeStringConcat
--XX:+UseCompressedOops
+-XX:-UseCompressedOops
