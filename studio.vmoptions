@@ -13,11 +13,16 @@
 #     List of HotSpot JVM Options for JRE 8:
 #        Mac OS and Linux http://docs.oracle.com/javase/8/docs/technotes/tools/unix/java.html
 #        Windows http://docs.oracle.com/javase/8/docs/technotes/tools/windows/java.html
+# 4. Put this file to required folder on your computer.
+#      Mac OS:
+#        Place this file to ~/Library/Preferences/{FOLDER_NAME}/
+#      Linux:
+#        Place this file to ~/.{FOLDER_NAME}/studio.vmoptions and/or ~/.{FOLDER_NAME}/studio64.vmoptions
+#      Windows:
+#        Place this file to %USERPROFILE%\.{FOLDER_NAME}\studio.exe.vmoptions and/or %USERPROFILE%\.{FOLDER_NAME}\studio64.exe.vmoptions
 #
-# Example for Mac OS:
-#   Place this file to ~/Library/Preferences/FolderOfYourAndroidStudioVersion
-#     (each AndroidStudio version has own folder, so add file to required folder, 
-#     then Android Studio will copy preferences on upgrades)
+# {FOLDER_NAME} is a name of the folder of currently used version of Android Studio.
+# BTW, Android Studio will copy preferences (inlcuding vmoptions) on upgrades.
 #
 # Feel free to send PRs!
 #
