@@ -29,8 +29,20 @@
 # Repository: https://github.com/artem-zinnatullin/AndroidStudio-VM-Options
 # Questions? Ask me on Twitter https://twitter.com/artem_zin
 #
+
+# Runs JVM in Server mode with more optimizations and resources usage
+# It may slow down the startup, but if you usually keep IDE running for few hours/days
+# JVM may profile and optimize IDE better. Feel free to remove this flag.
 -server
+
+# Sets the initial size of the heap, default value is 256m
 -Xms1G
+
+# Max size of the memory allocation pool, default value is 1280m
 -Xmx2G
+
+# Sets the size of the allocated class metadata space that will trigger a GC the first time it is exceeded, defaul max value is 350m 
 -XX:MetaspaceSize=512m
+
+# Disables the use of compressed pointers, by default JVM compresses pointers to use less memory, but slows application down.
 -XX:-UseCompressedOops
