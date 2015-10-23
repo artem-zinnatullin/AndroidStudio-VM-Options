@@ -27,7 +27,7 @@
 # Feel free to send PRs!
 #
 # Repository: https://github.com/artem-zinnatullin/AndroidStudio-VM-Options
-# Questions? Ask me in Twitter https://twitter.com/artem_zin
+# Questions? Ask me on Twitter https://twitter.com/artem_zin
 #
 -server
 -Xms1G
