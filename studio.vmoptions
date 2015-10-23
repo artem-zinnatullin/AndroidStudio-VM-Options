@@ -42,6 +42,3 @@
 
 # Sets the size of the allocated class metadata space that will trigger a GC the first time it is exceeded, defaul max value is 350m 
 -XX:MetaspaceSize=512m
-
-# Disables the use of compressed pointers, by default JVM compresses pointers to use less memory, but slows application down.
--XX:-UseCompressedOops
