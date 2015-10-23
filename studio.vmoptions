@@ -2,17 +2,24 @@
 # JVM options for smooth Android Studio experience (works also for any IntelliJ IDEA based IDE).
 # Works on Mac OS, Linux, Windows. Targets JRE 8.
 #
+#
+#
 # Installation instructions
 #
-# Mac OS:
-#   Place this file to ~/Library/Preferences/FolderOfYourAndroidStudioVersion 
-#   (each AndroidStudio version has own folder, so add to required, then it will copy preferences on upgrades)
+# 1. Read this page http://tools.android.com/tech-docs/configuration
+#      You will see how and where put these settings on your OS so Android Studio will use them.
+# 2. Please check that you have required amount of resources.
+# 3. Feel free to change/add/remove these options for a better result!
+#     List of HotSpot JVM Options for JRE 8:
+#        Mac OS and Linux http://docs.oracle.com/javase/8/docs/technotes/tools/unix/java.html
+#        Windows http://docs.oracle.com/javase/8/docs/technotes/tools/windows/java.html
 #
-# TODO: add instruction for other OSses, feel free to send PRs!
+# Example for Mac OS:
+#   Place this file to ~/Library/Preferences/FolderOfYourAndroidStudioVersion
+#     (each AndroidStudio version has own folder, so add file to required folder, 
+#     then Android Studio will copy preferences on upgrades)
 #
-# Links:
-#   https://intellij-support.jetbrains.com/hc/en-us/articles/206827537-Configuring-JVM-options-and-platform-properties
-#   http://tools.android.com/tech-docs/configuration
+# Feel free to send PRs!
 #
 # Repository: https://github.com/artem-zinnatullin/AndroidStudio-VM-Options
 # Questions? Ask me in Twitter https://twitter.com/artem_zin
@@ -20,8 +27,6 @@
 -server
 -Xms1G
 -Xmx2G
--XX:MaxMetaspaceSize=350m
--XX:ReservedCodeCacheSize=225m
 -XX:MetaspaceSize=512m
 -XX:+OptimizeStringConcat
 -XX:+UseCompressedOops
