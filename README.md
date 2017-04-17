@@ -1,6 +1,6 @@
-####JVM options for smoother Android Studio experience
+#### JVM options for smoother Android Studio experience
 
-######Tired of slow Android Studio? 
+###### Tired of slow Android Studio? 
 Yeah, me too.
 
 Here are some `vmoptions` I use for Android Studio, it starts **faster** and runs **smoother** than on default options.
@@ -10,7 +10,7 @@ You will find all installation instuctions in the [studio.vmoptions file](studio
 -----------
 JVM Options target HotSpot JRE 8, all of them are compatible with Mac OS, Linux and Windows.
 
-#####Download
+##### Download
 See [studio.vmoptions file](studio.vmoptions).
 
 ------------
