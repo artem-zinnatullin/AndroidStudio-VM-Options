@@ -22,7 +22,7 @@
 #        Place this file to %USERPROFILE%\.{FOLDER_NAME}\studio.exe.vmoptions and/or %USERPROFILE%\.{FOLDER_NAME}\studio64.exe.vmoptions
 #
 # {FOLDER_NAME} is a name of the folder of currently used version of Android Studio.
-# BTW, Android Studio will copy preferences (inlcuding vmoptions) on upgrades.
+# BTW, Android Studio will copy preferences (including vmoptions) on upgrades.
 #
 # Feel free to send PRs!
 #
@@ -40,5 +40,5 @@
 # Max size of the memory allocation pool, default value is 1280m
 -Xmx2G
 
-# Sets the size of the allocated class metadata space that will trigger a GC the first time it is exceeded, defaul max value is 350m 
+# Sets the size of the allocated class metadata space that will trigger a GC the first time it is exceeded, default max value is 350m 
 -XX:MetaspaceSize=512m
